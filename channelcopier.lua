@@ -88,6 +88,7 @@ local additionalnodes = {
 	["jumpdrive:engine"] = "channel",
 	["jumpdrive:fleet_controller"] = "channel",
 	["monitoring_digilines:metric_controller"] = "channel",
+	["pipeworks:autocrafter"] = "channel",
 	["pipeworks:digiline_detector_tube_1"] = "channel",
 	["pipeworks:digiline_detector_tube_2"] = "channel",
 	["pipeworks:digiline_detector_tube_3"] = "channel",
