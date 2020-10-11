@@ -67,6 +67,16 @@ minetest.register_craft({
 -- "channel" no matter if the node actually is a digiline node.
 
 local additionalnodes = {
+	["beacon:black"] = "channel",
+	["beacon:blue"] = "channel",
+	["beacon:cyan"] = "channel",
+	["beacon:green"] = "channel",
+	["beacon:magenta"] = "channel",
+	["beacon:orange"] = "channel",
+	["beacon:red"] = "channel",
+	["beacon:violet"] = "channel",
+	["beacon:white"] = "channel",
+	["beacon:yellow"] = "channel",
 	["digiline_global_memory:controller"] = "channel",
 	["digiline_routing:filter"] = "channel",
 	["digilines:chest"] = "channel",
