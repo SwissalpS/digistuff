@@ -56,6 +56,8 @@ minetest.register_node("digistuff:nic", {
 						user_agent = "Minetest Digilines Modem",
 						},
 						function(res)
+							-- TODO: inspect res for json content-type, if so, add/replace body with converted table
+							-- fallback to what it is now if conversion fails
 							digiline:receptor_send(pos, digiline.rules.default, channel, res)
 						end)
 				end
